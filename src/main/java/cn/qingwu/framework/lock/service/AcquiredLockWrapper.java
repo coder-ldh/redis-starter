@@ -5,5 +5,10 @@ package cn.qingwu.framework.lock.service;
  */
 public interface AcquiredLockWrapper<T> {
 
-    T invokeAfterLockAcquire() throws Throwable;
+    /**
+     * do
+     * @return
+     * @throws RuntimeException
+     */
+    T invokeAfterLockAcquire() throws RuntimeException;
 }

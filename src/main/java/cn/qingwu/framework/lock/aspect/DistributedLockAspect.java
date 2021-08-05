@@ -17,8 +17,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import java.lang.reflect.Method;
 
 /**
- * @author Leq
- * @date 3/19/2019
+ * @author ldh
  */
 @Aspect
 @Component
