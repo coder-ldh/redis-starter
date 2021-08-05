@@ -164,4 +164,7 @@ public class MyRedisConfig extends CachingConfigurerSupport {
         return new MyRedisUtil(redisTemplate);
     }
 
+
+
+
 }
